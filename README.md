@@ -9,3 +9,7 @@ Folder structure:
 ├── src
     └── src/dataloader.py
 └── venv
+
+
+install:
+pip install -r requirements.txt
