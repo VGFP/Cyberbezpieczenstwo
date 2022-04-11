@@ -11,7 +11,6 @@ class Dataloader:
     def __init__(self):
         self.data = None
         self.labels = None
-        self.features = None
         self.data_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..',  'dataset'))
         self.data_files = ['UNSW-NB15_1.csv', 'UNSW-NB15_2.csv', 'UNSW-NB15_3.csv'] # There is an issue with the 4th file, it is not in the correct format 'UNSW-NB15_4.csv'
         self.labels_file = 'NUSW-NB15_features_v2.csv'
@@ -27,12 +26,12 @@ class Dataloader:
         self.labels = []
         for i in range(1, 50):
             self.labels.append(labels_arr[i][1])
-        # self.labels = self.labels[1:,1]
-        # with open(os.path.join(self.data_path, self.labels_file), 'r') as f:
-        #     self.labels = f.readlines()
         self.data = np.array(self.data)
         self.data = np.reshape(self.data, (700001*3, 49))
         self.df = pd.DataFrame(self.data, columns=self.labels)
+        # Data cleaning
+        del self.data
+        del self.labels
 
     def get_data(self):
         return self.df
