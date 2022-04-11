@@ -21,14 +21,21 @@ class Dataloader:
         for file in self.data_files:
             print(f'Loading data from file: {file}')
             self.data.append(pd.read_csv(os.path.join(self.data_path, file), header=None))
-        with open(os.path.join(self.data_path, self.labels_file), 'r') as f:
-            self.labels = f.readlines()
+        
+        labels_arr = pd.read_csv(os.path.join(self.data_path, self.labels_file), header=None)
+        labels_arr = labels_arr.values.tolist()
+        self.labels = []
+        for i in range(1, 50):
+            self.labels.append(labels_arr[i][1])
+        # self.labels = self.labels[1:,1]
+        # with open(os.path.join(self.data_path, self.labels_file), 'r') as f:
+        #     self.labels = f.readlines()
         self.data = np.array(self.data)
         self.data = np.reshape(self.data, (700001*3, 49))
-        self.df = pd.DataFrame(self.data)
+        self.df = pd.DataFrame(self.data, columns=self.labels)
 
     def get_data(self):
-        return self.data, self.labels, self.features
+        return self.df
 
 
 def test():
@@ -36,10 +43,9 @@ def test():
 
     dataloader = Dataloader()
     dataloader.load_data()
-    data, labels, features = dataloader.get_data()
+    data = dataloader.get_data()
 
-    # print(f"Labels: {labels}")
-    # print(f"Data: {len(data)}")
+    print(f"Data: {len(data)}")
 
 if(__name__ == "__main__"):
     test()
