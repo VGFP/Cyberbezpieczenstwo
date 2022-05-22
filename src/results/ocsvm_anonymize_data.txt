@@ -1,0 +1,3516 @@
+
+['dur', 'sbytes']
+TP: 470
+TN: 10495
+FP: 427
+FN: 15866 <- attacks not detected
+['dur', 'dbytes']
+TP: 356
+TN: 10041
+FP: 541
+FN: 16320 <- attacks not detected
+['dur', 'sttl']
+TP: 897
+TN: 13629
+FP: 0
+FN: 12732 <- attacks not detected
+['dur', 'dttl']
+TP: 897
+TN: 13629
+FP: 0
+FN: 12732 <- attacks not detected
+['dur', 'sloss']
+TP: 697
+TN: 13430
+FP: 200
+FN: 12931 <- attacks not detected
+['dur', 'dloss']
+TP: 636
+TN: 13374
+FP: 261
+FN: 12987 <- attacks not detected
+['dur', 'Sload']
+TP: 367
+TN: 10906
+FP: 530
+FN: 15455 <- attacks not detected
+['dur', 'Dload']
+TP: 190
+TN: 16723
+FP: 707
+FN: 9638 <- attacks not detected
+['dur', 'Spkts']
+TP: 518
+TN: 13314
+FP: 379
+FN: 13047 <- attacks not detected
+['dur', 'Dpkts']
+TP: 552
+TN: 13326
+FP: 345
+FN: 13035 <- attacks not detected
+['dur', 'swin']
+TP: 674
+TN: 13388
+FP: 223
+FN: 12973 <- attacks not detected
+['dur', 'dwin']
+TP: 674
+TN: 13389
+FP: 223
+FN: 12972 <- attacks not detected
+['dur', 'stcpb']
+TP: 363
+TN: 8787
+FP: 534
+FN: 17574 <- attacks not detected
+['dur', 'dtcpb']
+TP: 317
+TN: 11182
+FP: 580
+FN: 15179 <- attacks not detected
+['dur', 'smeansz']
+TP: 835
+TN: 13442
+FP: 62
+FN: 12919 <- attacks not detected
+['dur', 'dmeansz']
+TP: 584
+TN: 12982
+FP: 313
+FN: 13379 <- attacks not detected
+['dur', 'trans_depth']
+TP: 827
+TN: 13559
+FP: 70
+FN: 12802 <- attacks not detected
+['dur', 'res_bdy_len']
+TP: 830
+TN: 13562
+FP: 67
+FN: 12799 <- attacks not detected
+['dur', 'Sjit']
+TP: 384
+TN: 13138
+FP: 513
+FN: 13223 <- attacks not detected
+['dur', 'Djit']
+TP: 567
+TN: 13018
+FP: 330
+FN: 13343 <- attacks not detected
+['dur', 'Sintpkt']
+TP: 735
+TN: 13468
+FP: 162
+FN: 12893 <- attacks not detected
+['dur', 'Dintpkt']
+TP: 896
+TN: 13626
+FP: 1
+FN: 12735 <- attacks not detected
+['dur', 'tcprtt']
+TP: 790
+TN: 13522
+FP: 107
+FN: 12839 <- attacks not detected
+['dur', 'synack']
+TP: 785
+TN: 13518
+FP: 112
+FN: 12843 <- attacks not detected
+['dur', 'ackdat']
+TP: 785
+TN: 13517
+FP: 112
+FN: 12844 <- attacks not detected
+['dur', 'is_sm_ips_ports']
+TP: 782
+TN: 13512
+FP: 115
+FN: 12849 <- attacks not detected
+['dur', 'ct_state_ttl']
+TP: 897
+TN: 13629
+FP: 0
+FN: 12732 <- attacks not detected
+['dur', 'ct_flw_http_mthd']
+TP: 827
+TN: 13558
+FP: 70
+FN: 12803 <- attacks not detected
+['dur', 'is_ftp_login']
+TP: 783
+TN: 13515
+FP: 114
+FN: 12846 <- attacks not detected
+['dur', 'ct_ftp_cmd']
+TP: 783
+TN: 13518
+FP: 114
+FN: 12843 <- attacks not detected
+['dur', 'ct_srv_src']
+TP: 709
+TN: 13450
+FP: 188
+FN: 12911 <- attacks not detected
+['dur', 'ct_srv_dst']
+TP: 688
+TN: 13416
+FP: 209
+FN: 12945 <- attacks not detected
+['dur', 'ct_dst_ltm']
+TP: 670
+TN: 13408
+FP: 227
+FN: 12953 <- attacks not detected
+['dur', 'ct_src_ ltm']
+TP: 659
+TN: 13394
+FP: 238
+FN: 12967 <- attacks not detected
+['dur', 'ct_src_dport_ltm']
+TP: 764
+TN: 13496
+FP: 133
+FN: 12865 <- attacks not detected
+['dur', 'ct_dst_sport_ltm']
+TP: 763
+TN: 13495
+FP: 134
+FN: 12866 <- attacks not detected
+['dur', 'ct_dst_src_ltm']
+TP: 645
+TN: 13387
+FP: 252
+FN: 12974 <- attacks not detected
+['sbytes', 'dbytes']
+TP: 565
+TN: 11359
+FP: 332
+FN: 15002 <- attacks not detected
+['sbytes', 'sttl']
+TP: 599
+TN: 7005
+FP: 298
+FN: 19356 <- attacks not detected
+['sbytes', 'dttl']
+TP: 599
+TN: 13001
+FP: 298
+FN: 13360 <- attacks not detected
+['sbytes', 'sloss']
+TP: 642
+TN: 9183
+FP: 255
+FN: 17178 <- attacks not detected
+['sbytes', 'dloss']
+TP: 684
+TN: 9043
+FP: 213
+FN: 17318 <- attacks not detected
+['sbytes', 'Sload']
+TP: 799
+TN: 8189
+FP: 98
+FN: 18172 <- attacks not detected
+['sbytes', 'Dload']
+TP: 450
+TN: 15445
+FP: 447
+FN: 10916 <- attacks not detected
+['sbytes', 'Spkts']
+TP: 698
+TN: 9385
+FP: 199
+FN: 16976 <- attacks not detected
+['sbytes', 'Dpkts']
+TP: 795
+TN: 9272
+FP: 102
+FN: 17089 <- attacks not detected
+['sbytes', 'swin']
+TP: 896
+TN: 8691
+FP: 1
+FN: 17670 <- attacks not detected
+['sbytes', 'dwin']
+TP: 896
+TN: 8691
+FP: 1
+FN: 17670 <- attacks not detected
+['sbytes', 'stcpb']
+TP: 753
+TN: 4601
+FP: 144
+FN: 21760 <- attacks not detected
+['sbytes', 'dtcpb']
+TP: 703
+TN: 5964
+FP: 194
+FN: 20397 <- attacks not detected
+['sbytes', 'smeansz']
+TP: 691
+TN: 9234
+FP: 206
+FN: 17127 <- attacks not detected
+['sbytes', 'dmeansz']
+TP: 681
+TN: 8908
+FP: 216
+FN: 17453 <- attacks not detected
+['sbytes', 'trans_depth']
+TP: 897
+TN: 4769
+FP: 0
+FN: 21592 <- attacks not detected
+['sbytes', 'res_bdy_len']
+TP: 595
+TN: 13753
+FP: 302
+FN: 12608 <- attacks not detected
+['sbytes', 'Sjit']
+TP: 470
+TN: 7640
+FP: 427
+FN: 18721 <- attacks not detected
+['sbytes', 'Djit']
+TP: 424
+TN: 12817
+FP: 473
+FN: 13544 <- attacks not detected
+['sbytes', 'Sintpkt']
+TP: 704
+TN: 13118
+FP: 193
+FN: 13243 <- attacks not detected
+['sbytes', 'Dintpkt']
+TP: 470
+TN: 13306
+FP: 427
+FN: 13055 <- attacks not detected
+['sbytes', 'tcprtt']
+TP: 595
+TN: 8983
+FP: 302
+FN: 17378 <- attacks not detected
+['sbytes', 'synack']
+TP: 599
+TN: 11531
+FP: 298
+FN: 14830 <- attacks not detected
+['sbytes', 'ackdat']
+TP: 897
+TN: 10270
+FP: 0
+FN: 16091 <- attacks not detected
+['sbytes', 'is_sm_ips_ports']
+TP: 599
+TN: 11262
+FP: 298
+FN: 15099 <- attacks not detected
+['sbytes', 'ct_state_ttl']
+TP: 897
+TN: 3338
+FP: 0
+FN: 23023 <- attacks not detected
+['sbytes', 'ct_flw_http_mthd']
+TP: 594
+TN: 8282
+FP: 303
+FN: 18079 <- attacks not detected
+['sbytes', 'is_ftp_login']
+TP: 599
+TN: 8750
+FP: 298
+FN: 17611 <- attacks not detected
+['sbytes', 'ct_ftp_cmd']
+TP: 891
+TN: 9036
+FP: 6
+FN: 17325 <- attacks not detected
+['sbytes', 'ct_srv_src']
+TP: 688
+TN: 8019
+FP: 209
+FN: 18342 <- attacks not detected
+['sbytes', 'ct_srv_dst']
+TP: 811
+TN: 9729
+FP: 86
+FN: 16632 <- attacks not detected
+['sbytes', 'ct_dst_ltm']
+TP: 846
+TN: 8670
+FP: 51
+FN: 17691 <- attacks not detected
+['sbytes', 'ct_src_ ltm']
+TP: 789
+TN: 9074
+FP: 108
+FN: 17287 <- attacks not detected
+['sbytes', 'ct_src_dport_ltm']
+TP: 707
+TN: 7568
+FP: 190
+FN: 18793 <- attacks not detected
+['sbytes', 'ct_dst_sport_ltm']
+TP: 759
+TN: 5503
+FP: 138
+FN: 20858 <- attacks not detected
+['sbytes', 'ct_dst_src_ltm']
+TP: 710
+TN: 10189
+FP: 187
+FN: 16172 <- attacks not detected
+['dbytes', 'sttl']
+TP: 896
+TN: 7788
+FP: 1
+FN: 18573 <- attacks not detected
+['dbytes', 'dttl']
+TP: 897
+TN: 7304
+FP: 0
+FN: 19057 <- attacks not detected
+['dbytes', 'sloss']
+TP: 466
+TN: 7557
+FP: 431
+FN: 18804 <- attacks not detected
+['dbytes', 'dloss']
+TP: 525
+TN: 9375
+FP: 372
+FN: 16986 <- attacks not detected
+['dbytes', 'Sload']
+TP: 775
+TN: 12857
+FP: 122
+FN: 13504 <- attacks not detected
+['dbytes', 'Dload']
+TP: 767
+TN: 7360
+FP: 130
+FN: 19001 <- attacks not detected
+['dbytes', 'Spkts']
+TP: 659
+TN: 9365
+FP: 238
+FN: 16996 <- attacks not detected
+['dbytes', 'Dpkts']
+TP: 632
+TN: 8178
+FP: 265
+FN: 18183 <- attacks not detected
+['dbytes', 'swin']
+TP: 803
+TN: 6991
+FP: 94
+FN: 19370 <- attacks not detected
+['dbytes', 'dwin']
+TP: 277
+TN: 10486
+FP: 620
+FN: 15875 <- attacks not detected
+['dbytes', 'stcpb']
+TP: 323
+TN: 7404
+FP: 574
+FN: 18957 <- attacks not detected
+['dbytes', 'dtcpb']
+TP: 307
+TN: 9413
+FP: 590
+FN: 16948 <- attacks not detected
+['dbytes', 'smeansz']
+TP: 746
+TN: 8279
+FP: 151
+FN: 18082 <- attacks not detected
+['dbytes', 'dmeansz']
+TP: 662
+TN: 8074
+FP: 235
+FN: 18287 <- attacks not detected
+['dbytes', 'trans_depth']
+TP: 298
+TN: 11256
+FP: 599
+FN: 15105 <- attacks not detected
+['dbytes', 'res_bdy_len']
+TP: 831
+TN: 6354
+FP: 66
+FN: 20007 <- attacks not detected
+['dbytes', 'Sjit']
+TP: 897
+TN: 11386
+FP: 0
+FN: 14975 <- attacks not detected
+['dbytes', 'Djit']
+TP: 370
+TN: 12383
+FP: 527
+FN: 13978 <- attacks not detected
+['dbytes', 'Sintpkt']
+TP: 399
+TN: 12408
+FP: 498
+FN: 13953 <- attacks not detected
+['dbytes', 'Dintpkt']
+TP: 371
+TN: 12854
+FP: 526
+FN: 13507 <- attacks not detected
+['dbytes', 'tcprtt']
+TP: 874
+TN: 5904
+FP: 23
+FN: 20457 <- attacks not detected
+['dbytes', 'synack']
+TP: 347
+TN: 12169
+FP: 550
+FN: 14192 <- attacks not detected
+['dbytes', 'ackdat']
+TP: 351
+TN: 10303
+FP: 546
+FN: 16058 <- attacks not detected
+['dbytes', 'is_sm_ips_ports']
+TP: 371
+TN: 6163
+FP: 526
+FN: 20198 <- attacks not detected
+['dbytes', 'ct_state_ttl']
+TP: 282
+TN: 6932
+FP: 615
+FN: 19429 <- attacks not detected
+['dbytes', 'ct_flw_http_mthd']
+TP: 370
+TN: 7132
+FP: 527
+FN: 19229 <- attacks not detected
+['dbytes', 'is_ftp_login']
+TP: 371
+TN: 6228
+FP: 526
+FN: 20133 <- attacks not detected
+['dbytes', 'ct_ftp_cmd']
+TP: 370
+TN: 8777
+FP: 527
+FN: 17584 <- attacks not detected
+['dbytes', 'ct_srv_src']
+TP: 608
+TN: 6390
+FP: 289
+FN: 19971 <- attacks not detected
+['dbytes', 'ct_srv_dst']
+TP: 511
+TN: 8938
+FP: 386
+FN: 17423 <- attacks not detected
+['dbytes', 'ct_dst_ltm']
+TP: 663
+TN: 9478
+FP: 234
+FN: 16883 <- attacks not detected
+['dbytes', 'ct_src_ ltm']
+TP: 563
+TN: 7274
+FP: 334
+FN: 19087 <- attacks not detected
+['dbytes', 'ct_src_dport_ltm']
+TP: 470
+TN: 10022
+FP: 427
+FN: 16339 <- attacks not detected
+['dbytes', 'ct_dst_sport_ltm']
+TP: 614
+TN: 4773
+FP: 283
+FN: 21588 <- attacks not detected
+['dbytes', 'ct_dst_src_ltm']
+TP: 357
+TN: 6639
+FP: 540
+FN: 19722 <- attacks not detected
+['sttl', 'dttl']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'sloss']
+TP: 897
+TN: 10443
+FP: 0
+FN: 15918 <- attacks not detected
+['sttl', 'dloss']
+TP: 897
+TN: 11233
+FP: 0
+FN: 15128 <- attacks not detected
+['sttl', 'Sload']
+TP: 783
+TN: 8928
+FP: 114
+FN: 17433 <- attacks not detected
+['sttl', 'Dload']
+TP: 198
+TN: 14768
+FP: 699
+FN: 11593 <- attacks not detected
+['sttl', 'Spkts']
+TP: 897
+TN: 9753
+FP: 0
+FN: 16608 <- attacks not detected
+['sttl', 'Dpkts']
+TP: 897
+TN: 10766
+FP: 0
+FN: 15595 <- attacks not detected
+['sttl', 'swin']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'dwin']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'stcpb']
+TP: 819
+TN: 9974
+FP: 78
+FN: 16387 <- attacks not detected
+['sttl', 'dtcpb']
+TP: 788
+TN: 12113
+FP: 109
+FN: 14248 <- attacks not detected
+['sttl', 'smeansz']
+TP: 897
+TN: 10461
+FP: 0
+FN: 15900 <- attacks not detected
+['sttl', 'dmeansz']
+TP: 630
+TN: 8932
+FP: 267
+FN: 17429 <- attacks not detected
+['sttl', 'trans_depth']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'res_bdy_len']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'Sjit']
+TP: 386
+TN: 5927
+FP: 511
+FN: 20434 <- attacks not detected
+['sttl', 'Djit']
+TP: 371
+TN: 8005
+FP: 526
+FN: 18356 <- attacks not detected
+['sttl', 'Sintpkt']
+TP: 897
+TN: 12722
+FP: 0
+FN: 13639 <- attacks not detected
+['sttl', 'Dintpkt']
+TP: 897
+TN: 13539
+FP: 0
+FN: 12822 <- attacks not detected
+['sttl', 'tcprtt']
+TP: 897
+TN: 16491
+FP: 0
+FN: 9870 <- attacks not detected
+['sttl', 'synack']
+TP: 897
+TN: 17223
+FP: 0
+FN: 9138 <- attacks not detected
+['sttl', 'ackdat']
+TP: 897
+TN: 25087
+FP: 0
+FN: 1274 <- attacks not detected
+['sttl', 'is_sm_ips_ports']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'ct_state_ttl']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'ct_flw_http_mthd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'is_ftp_login']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'ct_ftp_cmd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'ct_srv_src']
+TP: 897
+TN: 11957
+FP: 0
+FN: 14404 <- attacks not detected
+['sttl', 'ct_srv_dst']
+TP: 897
+TN: 8291
+FP: 0
+FN: 18070 <- attacks not detected
+['sttl', 'ct_dst_ltm']
+TP: 897
+TN: 9189
+FP: 0
+FN: 17172 <- attacks not detected
+['sttl', 'ct_src_ ltm']
+TP: 897
+TN: 11106
+FP: 0
+FN: 15255 <- attacks not detected
+['sttl', 'ct_src_dport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['sttl', 'ct_dst_src_ltm']
+TP: 897
+TN: 14233
+FP: 0
+FN: 12128 <- attacks not detected
+['dttl', 'sloss']
+TP: 897
+TN: 9174
+FP: 0
+FN: 17187 <- attacks not detected
+['dttl', 'dloss']
+TP: 897
+TN: 10372
+FP: 0
+FN: 15989 <- attacks not detected
+['dttl', 'Sload']
+TP: 751
+TN: 10942
+FP: 146
+FN: 15419 <- attacks not detected
+['dttl', 'Dload']
+TP: 190
+TN: 15926
+FP: 707
+FN: 10435 <- attacks not detected
+['dttl', 'Spkts']
+TP: 897
+TN: 9569
+FP: 0
+FN: 16792 <- attacks not detected
+['dttl', 'Dpkts']
+TP: 897
+TN: 11515
+FP: 0
+FN: 14846 <- attacks not detected
+['dttl', 'swin']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dttl', 'dwin']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dttl', 'stcpb']
+TP: 247
+TN: 12884
+FP: 650
+FN: 13477 <- attacks not detected
+['dttl', 'dtcpb']
+TP: 165
+TN: 15016
+FP: 732
+FN: 11345 <- attacks not detected
+['dttl', 'smeansz']
+TP: 897
+TN: 8856
+FP: 0
+FN: 17505 <- attacks not detected
+['dttl', 'dmeansz']
+TP: 630
+TN: 7978
+FP: 267
+FN: 18383 <- attacks not detected
+['dttl', 'trans_depth']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dttl', 'res_bdy_len']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dttl', 'Sjit']
+TP: 385
+TN: 5975
+FP: 512
+FN: 20386 <- attacks not detected
+['dttl', 'Djit']
+TP: 897
+TN: 12556
+FP: 0
+FN: 13805 <- attacks not detected
+['dttl', 'Sintpkt']
+TP: 897
+TN: 12731
+FP: 0
+FN: 13630 <- attacks not detected
+['dttl', 'Dintpkt']
+TP: 897
+TN: 13548
+FP: 0
+FN: 12813 <- attacks not detected
+['dttl', 'tcprtt']
+TP: 897
+TN: 16494
+FP: 0
+FN: 9867 <- attacks not detected
+['dttl', 'synack']
+TP: 897
+TN: 17233
+FP: 0
+FN: 9128 <- attacks not detected
+['dttl', 'ackdat']
+TP: 897
+TN: 25070
+FP: 0
+FN: 1291 <- attacks not detected
+['dttl', 'is_sm_ips_ports']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dttl', 'ct_state_ttl']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dttl', 'ct_flw_http_mthd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dttl', 'is_ftp_login']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dttl', 'ct_ftp_cmd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dttl', 'ct_srv_src']
+TP: 897
+TN: 10596
+FP: 0
+FN: 15765 <- attacks not detected
+['dttl', 'ct_srv_dst']
+TP: 897
+TN: 8570
+FP: 0
+FN: 17791 <- attacks not detected
+['dttl', 'ct_dst_ltm']
+TP: 897
+TN: 7046
+FP: 0
+FN: 19315 <- attacks not detected
+['dttl', 'ct_src_ ltm']
+TP: 897
+TN: 13111
+FP: 0
+FN: 13250 <- attacks not detected
+['dttl', 'ct_src_dport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dttl', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dttl', 'ct_dst_src_ltm']
+TP: 897
+TN: 14223
+FP: 0
+FN: 12138 <- attacks not detected
+['sloss', 'dloss']
+TP: 525
+TN: 8632
+FP: 372
+FN: 17729 <- attacks not detected
+['sloss', 'Sload']
+TP: 544
+TN: 12195
+FP: 353
+FN: 14166 <- attacks not detected
+['sloss', 'Dload']
+TP: 570
+TN: 12137
+FP: 327
+FN: 14224 <- attacks not detected
+['sloss', 'Spkts']
+TP: 480
+TN: 9312
+FP: 417
+FN: 17049 <- attacks not detected
+['sloss', 'Dpkts']
+TP: 470
+TN: 9256
+FP: 427
+FN: 17105 <- attacks not detected
+['sloss', 'swin']
+TP: 446
+TN: 12380
+FP: 451
+FN: 13981 <- attacks not detected
+['sloss', 'dwin']
+TP: 451
+TN: 10562
+FP: 446
+FN: 15799 <- attacks not detected
+['sloss', 'stcpb']
+TP: 457
+TN: 13893
+FP: 440
+FN: 12468 <- attacks not detected
+['sloss', 'dtcpb']
+TP: 511
+TN: 13707
+FP: 386
+FN: 12654 <- attacks not detected
+['sloss', 'smeansz']
+TP: 618
+TN: 9230
+FP: 279
+FN: 17131 <- attacks not detected
+['sloss', 'dmeansz']
+TP: 500
+TN: 8779
+FP: 397
+FN: 17582 <- attacks not detected
+['sloss', 'trans_depth']
+TP: 440
+TN: 11588
+FP: 457
+FN: 14773 <- attacks not detected
+['sloss', 'res_bdy_len']
+TP: 475
+TN: 9994
+FP: 422
+FN: 16367 <- attacks not detected
+['sloss', 'Sjit']
+TP: 634
+TN: 8934
+FP: 263
+FN: 17427 <- attacks not detected
+['sloss', 'Djit']
+TP: 583
+TN: 10526
+FP: 314
+FN: 15835 <- attacks not detected
+['sloss', 'Sintpkt']
+TP: 539
+TN: 13272
+FP: 358
+FN: 13089 <- attacks not detected
+['sloss', 'Dintpkt']
+TP: 739
+TN: 13621
+FP: 158
+FN: 12740 <- attacks not detected
+['sloss', 'tcprtt']
+TP: 638
+TN: 14715
+FP: 259
+FN: 11646 <- attacks not detected
+['sloss', 'synack']
+TP: 729
+TN: 13854
+FP: 168
+FN: 12507 <- attacks not detected
+['sloss', 'ackdat']
+TP: 735
+TN: 12768
+FP: 162
+FN: 13593 <- attacks not detected
+['sloss', 'is_sm_ips_ports']
+TP: 570
+TN: 7637
+FP: 327
+FN: 18724 <- attacks not detected
+['sloss', 'ct_state_ttl']
+TP: 897
+TN: 10097
+FP: 0
+FN: 16264 <- attacks not detected
+['sloss', 'ct_flw_http_mthd']
+TP: 517
+TN: 10007
+FP: 380
+FN: 16354 <- attacks not detected
+['sloss', 'is_ftp_login']
+TP: 570
+TN: 8739
+FP: 327
+FN: 17622 <- attacks not detected
+['sloss', 'ct_ftp_cmd']
+TP: 480
+TN: 10781
+FP: 417
+FN: 15580 <- attacks not detected
+['sloss', 'ct_srv_src']
+TP: 510
+TN: 10407
+FP: 387
+FN: 15954 <- attacks not detected
+['sloss', 'ct_srv_dst']
+TP: 523
+TN: 10815
+FP: 374
+FN: 15546 <- attacks not detected
+['sloss', 'ct_dst_ltm']
+TP: 504
+TN: 9602
+FP: 393
+FN: 16759 <- attacks not detected
+['sloss', 'ct_src_ ltm']
+TP: 508
+TN: 10407
+FP: 389
+FN: 15954 <- attacks not detected
+['sloss', 'ct_src_dport_ltm']
+TP: 676
+TN: 10238
+FP: 221
+FN: 16123 <- attacks not detected
+['sloss', 'ct_dst_sport_ltm']
+TP: 633
+TN: 12612
+FP: 264
+FN: 13749 <- attacks not detected
+['sloss', 'ct_dst_src_ltm']
+TP: 624
+TN: 10095
+FP: 273
+FN: 16266 <- attacks not detected
+['dloss', 'Sload']
+TP: 514
+TN: 14514
+FP: 383
+FN: 11847 <- attacks not detected
+['dloss', 'Dload']
+TP: 613
+TN: 11703
+FP: 284
+FN: 14658 <- attacks not detected
+['dloss', 'Spkts']
+TP: 466
+TN: 9452
+FP: 431
+FN: 16909 <- attacks not detected
+['dloss', 'Dpkts']
+TP: 425
+TN: 9516
+FP: 472
+FN: 16845 <- attacks not detected
+['dloss', 'swin']
+TP: 513
+TN: 9466
+FP: 384
+FN: 16895 <- attacks not detected
+['dloss', 'dwin']
+TP: 403
+TN: 11563
+FP: 494
+FN: 14798 <- attacks not detected
+['dloss', 'stcpb']
+TP: 409
+TN: 8829
+FP: 488
+FN: 17532 <- attacks not detected
+['dloss', 'dtcpb']
+TP: 463
+TN: 8481
+FP: 434
+FN: 17880 <- attacks not detected
+['dloss', 'smeansz']
+TP: 574
+TN: 9697
+FP: 323
+FN: 16664 <- attacks not detected
+['dloss', 'dmeansz']
+TP: 505
+TN: 8476
+FP: 392
+FN: 17885 <- attacks not detected
+['dloss', 'trans_depth']
+TP: 543
+TN: 8454
+FP: 354
+FN: 17907 <- attacks not detected
+['dloss', 'res_bdy_len']
+TP: 290
+TN: 11586
+FP: 607
+FN: 14775 <- attacks not detected
+['dloss', 'Sjit']
+TP: 603
+TN: 9798
+FP: 294
+FN: 16563 <- attacks not detected
+['dloss', 'Djit']
+TP: 461
+TN: 11798
+FP: 436
+FN: 14563 <- attacks not detected
+['dloss', 'Sintpkt']
+TP: 433
+TN: 13217
+FP: 464
+FN: 13144 <- attacks not detected
+['dloss', 'Dintpkt']
+TP: 670
+TN: 13465
+FP: 227
+FN: 12896 <- attacks not detected
+['dloss', 'tcprtt']
+TP: 560
+TN: 13719
+FP: 337
+FN: 12642 <- attacks not detected
+['dloss', 'synack']
+TP: 563
+TN: 13139
+FP: 334
+FN: 13222 <- attacks not detected
+['dloss', 'ackdat']
+TP: 600
+TN: 12699
+FP: 297
+FN: 13662 <- attacks not detected
+['dloss', 'is_sm_ips_ports']
+TP: 426
+TN: 9683
+FP: 471
+FN: 16678 <- attacks not detected
+['dloss', 'ct_state_ttl']
+TP: 896
+TN: 9945
+FP: 1
+FN: 16416 <- attacks not detected
+['dloss', 'ct_flw_http_mthd']
+TP: 485
+TN: 8850
+FP: 412
+FN: 17511 <- attacks not detected
+['dloss', 'is_ftp_login']
+TP: 352
+TN: 11222
+FP: 545
+FN: 15139 <- attacks not detected
+['dloss', 'ct_ftp_cmd']
+TP: 428
+TN: 9553
+FP: 469
+FN: 16808 <- attacks not detected
+['dloss', 'ct_srv_src']
+TP: 530
+TN: 9565
+FP: 367
+FN: 16796 <- attacks not detected
+['dloss', 'ct_srv_dst']
+TP: 551
+TN: 9496
+FP: 346
+FN: 16865 <- attacks not detected
+['dloss', 'ct_dst_ltm']
+TP: 492
+TN: 9628
+FP: 405
+FN: 16733 <- attacks not detected
+['dloss', 'ct_src_ ltm']
+TP: 484
+TN: 9646
+FP: 413
+FN: 16715 <- attacks not detected
+['dloss', 'ct_src_dport_ltm']
+TP: 602
+TN: 10439
+FP: 295
+FN: 15922 <- attacks not detected
+['dloss', 'ct_dst_sport_ltm']
+TP: 652
+TN: 9512
+FP: 245
+FN: 16849 <- attacks not detected
+['dloss', 'ct_dst_src_ltm']
+TP: 652
+TN: 7720
+FP: 245
+FN: 18641 <- attacks not detected
+['Sload', 'Dload']
+TP: 375
+TN: 11511
+FP: 522
+FN: 14850 <- attacks not detected
+['Sload', 'Spkts']
+TP: 502
+TN: 13335
+FP: 395
+FN: 13026 <- attacks not detected
+['Sload', 'Dpkts']
+TP: 496
+TN: 14059
+FP: 401
+FN: 12302 <- attacks not detected
+['Sload', 'swin']
+TP: 730
+TN: 9083
+FP: 167
+FN: 17278 <- attacks not detected
+['Sload', 'dwin']
+TP: 739
+TN: 9874
+FP: 158
+FN: 16487 <- attacks not detected
+['Sload', 'stcpb']
+TP: 441
+TN: 15179
+FP: 456
+FN: 11182 <- attacks not detected
+['Sload', 'dtcpb']
+TP: 395
+TN: 15734
+FP: 502
+FN: 10627 <- attacks not detected
+['Sload', 'smeansz']
+TP: 447
+TN: 15367
+FP: 450
+FN: 10994 <- attacks not detected
+['Sload', 'dmeansz']
+TP: 451
+TN: 15231
+FP: 446
+FN: 11130 <- attacks not detected
+['Sload', 'trans_depth']
+TP: 359
+TN: 15183
+FP: 538
+FN: 11178 <- attacks not detected
+['Sload', 'res_bdy_len']
+TP: 686
+TN: 9320
+FP: 211
+FN: 17041 <- attacks not detected
+['Sload', 'Sjit']
+TP: 696
+TN: 9877
+FP: 201
+FN: 16484 <- attacks not detected
+['Sload', 'Djit']
+TP: 413
+TN: 15703
+FP: 484
+FN: 10658 <- attacks not detected
+['Sload', 'Sintpkt']
+TP: 551
+TN: 19080
+FP: 346
+FN: 7281 <- attacks not detected
+['Sload', 'Dintpkt']
+TP: 645
+TN: 15883
+FP: 252
+FN: 10478 <- attacks not detected
+['Sload', 'tcprtt']
+TP: 422
+TN: 15181
+FP: 475
+FN: 11180 <- attacks not detected
+['Sload', 'synack']
+TP: 426
+TN: 15261
+FP: 471
+FN: 11100 <- attacks not detected
+['Sload', 'ackdat']
+TP: 420
+TN: 15295
+FP: 477
+FN: 11066 <- attacks not detected
+['Sload', 'is_sm_ips_ports']
+TP: 412
+TN: 15014
+FP: 485
+FN: 11347 <- attacks not detected
+['Sload', 'ct_state_ttl']
+TP: 585
+TN: 13803
+FP: 312
+FN: 12558 <- attacks not detected
+['Sload', 'ct_flw_http_mthd']
+TP: 640
+TN: 11959
+FP: 257
+FN: 14402 <- attacks not detected
+['Sload', 'is_ftp_login']
+TP: 567
+TN: 13384
+FP: 330
+FN: 12977 <- attacks not detected
+['Sload', 'ct_ftp_cmd']
+TP: 610
+TN: 14423
+FP: 287
+FN: 11938 <- attacks not detected
+['Sload', 'ct_srv_src']
+TP: 554
+TN: 15013
+FP: 343
+FN: 11348 <- attacks not detected
+['Sload', 'ct_srv_dst']
+TP: 573
+TN: 12492
+FP: 324
+FN: 13869 <- attacks not detected
+['Sload', 'ct_dst_ltm']
+TP: 569
+TN: 11220
+FP: 328
+FN: 15141 <- attacks not detected
+['Sload', 'ct_src_ ltm']
+TP: 479
+TN: 14338
+FP: 418
+FN: 12023 <- attacks not detected
+['Sload', 'ct_src_dport_ltm']
+TP: 408
+TN: 15385
+FP: 489
+FN: 10976 <- attacks not detected
+['Sload', 'ct_dst_sport_ltm']
+TP: 370
+TN: 15411
+FP: 527
+FN: 10950 <- attacks not detected
+['Sload', 'ct_dst_src_ltm']
+TP: 480
+TN: 14363
+FP: 417
+FN: 11998 <- attacks not detected
+['Dload', 'Spkts']
+TP: 423
+TN: 14431
+FP: 474
+FN: 11930 <- attacks not detected
+['Dload', 'Dpkts']
+TP: 331
+TN: 11433
+FP: 566
+FN: 14928 <- attacks not detected
+['Dload', 'swin']
+TP: 198
+TN: 13839
+FP: 699
+FN: 12522 <- attacks not detected
+['Dload', 'dwin']
+TP: 201
+TN: 13798
+FP: 696
+FN: 12563 <- attacks not detected
+['Dload', 'stcpb']
+TP: 568
+TN: 10905
+FP: 329
+FN: 15456 <- attacks not detected
+['Dload', 'dtcpb']
+TP: 558
+TN: 12089
+FP: 339
+FN: 14272 <- attacks not detected
+['Dload', 'smeansz']
+TP: 414
+TN: 16173
+FP: 483
+FN: 10188 <- attacks not detected
+['Dload', 'dmeansz']
+TP: 462
+TN: 13511
+FP: 435
+FN: 12850 <- attacks not detected
+['Dload', 'trans_depth']
+TP: 257
+TN: 11503
+FP: 640
+FN: 14858 <- attacks not detected
+['Dload', 'res_bdy_len']
+TP: 738
+TN: 12452
+FP: 159
+FN: 13909 <- attacks not detected
+['Dload', 'Sjit']
+TP: 245
+TN: 14138
+FP: 652
+FN: 12223 <- attacks not detected
+['Dload', 'Djit']
+TP: 260
+TN: 6937
+FP: 637
+FN: 19424 <- attacks not detected
+['Dload', 'Sintpkt']
+TP: 248
+TN: 10699
+FP: 649
+FN: 15662 <- attacks not detected
+['Dload', 'Dintpkt']
+TP: 786
+TN: 9405
+FP: 111
+FN: 16956 <- attacks not detected
+['Dload', 'tcprtt']
+TP: 156
+TN: 14497
+FP: 741
+FN: 11864 <- attacks not detected
+['Dload', 'synack']
+TP: 162
+TN: 14369
+FP: 735
+FN: 11992 <- attacks not detected
+['Dload', 'ackdat']
+TP: 158
+TN: 14426
+FP: 739
+FN: 11935 <- attacks not detected
+['Dload', 'is_sm_ips_ports']
+TP: 161
+TN: 14271
+FP: 736
+FN: 12090 <- attacks not detected
+['Dload', 'ct_state_ttl']
+TP: 705
+TN: 13461
+FP: 192
+FN: 12900 <- attacks not detected
+['Dload', 'ct_flw_http_mthd']
+TP: 188
+TN: 14597
+FP: 709
+FN: 11764 <- attacks not detected
+['Dload', 'is_ftp_login']
+TP: 149
+TN: 15031
+FP: 748
+FN: 11330 <- attacks not detected
+['Dload', 'ct_ftp_cmd']
+TP: 186
+TN: 13600
+FP: 711
+FN: 12761 <- attacks not detected
+['Dload', 'ct_srv_src']
+TP: 433
+TN: 10313
+FP: 464
+FN: 16048 <- attacks not detected
+['Dload', 'ct_srv_dst']
+TP: 434
+TN: 15695
+FP: 463
+FN: 10666 <- attacks not detected
+['Dload', 'ct_dst_ltm']
+TP: 434
+TN: 14755
+FP: 463
+FN: 11606 <- attacks not detected
+['Dload', 'ct_src_ ltm']
+TP: 444
+TN: 9439
+FP: 453
+FN: 16922 <- attacks not detected
+['Dload', 'ct_src_dport_ltm']
+TP: 303
+TN: 13639
+FP: 594
+FN: 12722 <- attacks not detected
+['Dload', 'ct_dst_sport_ltm']
+TP: 315
+TN: 14015
+FP: 582
+FN: 12346 <- attacks not detected
+['Dload', 'ct_dst_src_ltm']
+TP: 348
+TN: 13582
+FP: 549
+FN: 12779 <- attacks not detected
+['Spkts', 'Dpkts']
+TP: 522
+TN: 9399
+FP: 375
+FN: 16962 <- attacks not detected
+['Spkts', 'swin']
+TP: 525
+TN: 9007
+FP: 372
+FN: 17354 <- attacks not detected
+['Spkts', 'dwin']
+TP: 512
+TN: 9821
+FP: 385
+FN: 16540 <- attacks not detected
+['Spkts', 'stcpb']
+TP: 242
+TN: 9863
+FP: 655
+FN: 16498 <- attacks not detected
+['Spkts', 'dtcpb']
+TP: 141
+TN: 10651
+FP: 756
+FN: 15710 <- attacks not detected
+['Spkts', 'smeansz']
+TP: 642
+TN: 9628
+FP: 255
+FN: 16733 <- attacks not detected
+['Spkts', 'dmeansz']
+TP: 537
+TN: 9347
+FP: 360
+FN: 17014 <- attacks not detected
+['Spkts', 'trans_depth']
+TP: 559
+TN: 8537
+FP: 338
+FN: 17824 <- attacks not detected
+['Spkts', 'res_bdy_len']
+TP: 469
+TN: 9439
+FP: 428
+FN: 16922 <- attacks not detected
+['Spkts', 'Sjit']
+TP: 682
+TN: 9052
+FP: 215
+FN: 17309 <- attacks not detected
+['Spkts', 'Djit']
+TP: 628
+TN: 10480
+FP: 269
+FN: 15881 <- attacks not detected
+['Spkts', 'Sintpkt']
+TP: 410
+TN: 13085
+FP: 487
+FN: 13276 <- attacks not detected
+['Spkts', 'Dintpkt']
+TP: 656
+TN: 13203
+FP: 241
+FN: 13158 <- attacks not detected
+['Spkts', 'tcprtt']
+TP: 607
+TN: 11790
+FP: 290
+FN: 14571 <- attacks not detected
+['Spkts', 'synack']
+TP: 569
+TN: 11967
+FP: 328
+FN: 14394 <- attacks not detected
+['Spkts', 'ackdat']
+TP: 658
+TN: 11401
+FP: 239
+FN: 14960 <- attacks not detected
+['Spkts', 'is_sm_ips_ports']
+TP: 506
+TN: 10495
+FP: 391
+FN: 15866 <- attacks not detected
+['Spkts', 'ct_state_ttl']
+TP: 897
+TN: 10247
+FP: 0
+FN: 16114 <- attacks not detected
+['Spkts', 'ct_flw_http_mthd']
+TP: 518
+TN: 9213
+FP: 379
+FN: 17148 <- attacks not detected
+['Spkts', 'is_ftp_login']
+TP: 579
+TN: 8821
+FP: 318
+FN: 17540 <- attacks not detected
+['Spkts', 'ct_ftp_cmd']
+TP: 484
+TN: 10330
+FP: 413
+FN: 16031 <- attacks not detected
+['Spkts', 'ct_srv_src']
+TP: 507
+TN: 9621
+FP: 390
+FN: 16740 <- attacks not detected
+['Spkts', 'ct_srv_dst']
+TP: 500
+TN: 10078
+FP: 397
+FN: 16283 <- attacks not detected
+['Spkts', 'ct_dst_ltm']
+TP: 478
+TN: 9529
+FP: 419
+FN: 16832 <- attacks not detected
+['Spkts', 'ct_src_ ltm']
+TP: 508
+TN: 9346
+FP: 389
+FN: 17015 <- attacks not detected
+['Spkts', 'ct_src_dport_ltm']
+TP: 567
+TN: 12512
+FP: 330
+FN: 13849 <- attacks not detected
+['Spkts', 'ct_dst_sport_ltm']
+TP: 631
+TN: 11338
+FP: 266
+FN: 15023 <- attacks not detected
+['Spkts', 'ct_dst_src_ltm']
+TP: 557
+TN: 9825
+FP: 340
+FN: 16536 <- attacks not detected
+['Dpkts', 'swin']
+TP: 369
+TN: 13266
+FP: 528
+FN: 13095 <- attacks not detected
+['Dpkts', 'dwin']
+TP: 520
+TN: 10624
+FP: 377
+FN: 15737 <- attacks not detected
+['Dpkts', 'stcpb']
+TP: 426
+TN: 17305
+FP: 471
+FN: 9056 <- attacks not detected
+['Dpkts', 'dtcpb']
+TP: 382
+TN: 13479
+FP: 515
+FN: 12882 <- attacks not detected
+['Dpkts', 'smeansz']
+TP: 622
+TN: 9681
+FP: 275
+FN: 16680 <- attacks not detected
+['Dpkts', 'dmeansz']
+TP: 540
+TN: 8911
+FP: 357
+FN: 17450 <- attacks not detected
+['Dpkts', 'trans_depth']
+TP: 558
+TN: 9447
+FP: 339
+FN: 16914 <- attacks not detected
+['Dpkts', 'res_bdy_len']
+TP: 536
+TN: 9265
+FP: 361
+FN: 17096 <- attacks not detected
+['Dpkts', 'Sjit']
+TP: 654
+TN: 9859
+FP: 243
+FN: 16502 <- attacks not detected
+['Dpkts', 'Djit']
+TP: 590
+TN: 10533
+FP: 307
+FN: 15828 <- attacks not detected
+['Dpkts', 'Sintpkt']
+TP: 404
+TN: 13131
+FP: 493
+FN: 13230 <- attacks not detected
+['Dpkts', 'Dintpkt']
+TP: 563
+TN: 13183
+FP: 334
+FN: 13178 <- attacks not detected
+['Dpkts', 'tcprtt']
+TP: 606
+TN: 11459
+FP: 291
+FN: 14902 <- attacks not detected
+['Dpkts', 'synack']
+TP: 471
+TN: 12376
+FP: 426
+FN: 13985 <- attacks not detected
+['Dpkts', 'ackdat']
+TP: 601
+TN: 11986
+FP: 296
+FN: 14375 <- attacks not detected
+['Dpkts', 'is_sm_ips_ports']
+TP: 464
+TN: 10322
+FP: 433
+FN: 16039 <- attacks not detected
+['Dpkts', 'ct_state_ttl']
+TP: 897
+TN: 11559
+FP: 0
+FN: 14802 <- attacks not detected
+['Dpkts', 'ct_flw_http_mthd']
+TP: 376
+TN: 10717
+FP: 521
+FN: 15644 <- attacks not detected
+['Dpkts', 'is_ftp_login']
+TP: 407
+TN: 9752
+FP: 490
+FN: 16609 <- attacks not detected
+['Dpkts', 'ct_ftp_cmd']
+TP: 542
+TN: 9254
+FP: 355
+FN: 17107 <- attacks not detected
+['Dpkts', 'ct_srv_src']
+TP: 474
+TN: 9804
+FP: 423
+FN: 16557 <- attacks not detected
+['Dpkts', 'ct_srv_dst']
+TP: 495
+TN: 9803
+FP: 402
+FN: 16558 <- attacks not detected
+['Dpkts', 'ct_dst_ltm']
+TP: 452
+TN: 9194
+FP: 445
+FN: 17167 <- attacks not detected
+['Dpkts', 'ct_src_ ltm']
+TP: 447
+TN: 9768
+FP: 450
+FN: 16593 <- attacks not detected
+['Dpkts', 'ct_src_dport_ltm']
+TP: 588
+TN: 10252
+FP: 309
+FN: 16109 <- attacks not detected
+['Dpkts', 'ct_dst_sport_ltm']
+TP: 624
+TN: 10209
+FP: 273
+FN: 16152 <- attacks not detected
+['Dpkts', 'ct_dst_src_ltm']
+TP: 571
+TN: 9280
+FP: 326
+FN: 17081 <- attacks not detected
+['swin', 'dwin']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['swin', 'stcpb']
+TP: 230
+TN: 20442
+FP: 667
+FN: 5919 <- attacks not detected
+['swin', 'dtcpb']
+TP: 79
+TN: 23997
+FP: 818
+FN: 2364 <- attacks not detected
+['swin', 'smeansz']
+TP: 732
+TN: 9604
+FP: 165
+FN: 16757 <- attacks not detected
+['swin', 'dmeansz']
+TP: 441
+TN: 9373
+FP: 456
+FN: 16988 <- attacks not detected
+['swin', 'trans_depth']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['swin', 'res_bdy_len']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['swin', 'Sjit']
+TP: 384
+TN: 12353
+FP: 513
+FN: 14008 <- attacks not detected
+['swin', 'Djit']
+TP: 369
+TN: 12831
+FP: 528
+FN: 13530 <- attacks not detected
+['swin', 'Sintpkt']
+TP: 543
+TN: 13311
+FP: 354
+FN: 13050 <- attacks not detected
+['swin', 'Dintpkt']
+TP: 896
+TN: 13758
+FP: 1
+FN: 12603 <- attacks not detected
+['swin', 'tcprtt']
+TP: 896
+TN: 12266
+FP: 1
+FN: 14095 <- attacks not detected
+['swin', 'synack']
+TP: 851
+TN: 12230
+FP: 46
+FN: 14131 <- attacks not detected
+['swin', 'ackdat']
+TP: 365
+TN: 14177
+FP: 532
+FN: 12184 <- attacks not detected
+['swin', 'is_sm_ips_ports']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['swin', 'ct_state_ttl']
+TP: 896
+TN: 7463
+FP: 1
+FN: 18898 <- attacks not detected
+['swin', 'ct_flw_http_mthd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['swin', 'is_ftp_login']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['swin', 'ct_ftp_cmd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['swin', 'ct_srv_src']
+TP: 647
+TN: 10986
+FP: 250
+FN: 15375 <- attacks not detected
+['swin', 'ct_srv_dst']
+TP: 562
+TN: 11384
+FP: 335
+FN: 14977 <- attacks not detected
+['swin', 'ct_dst_ltm']
+TP: 745
+TN: 9471
+FP: 152
+FN: 16890 <- attacks not detected
+['swin', 'ct_src_ ltm']
+TP: 436
+TN: 12020
+FP: 461
+FN: 14341 <- attacks not detected
+['swin', 'ct_src_dport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['swin', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['swin', 'ct_dst_src_ltm']
+TP: 774
+TN: 4759
+FP: 123
+FN: 21602 <- attacks not detected
+['dwin', 'stcpb']
+TP: 170
+TN: 21875
+FP: 727
+FN: 4486 <- attacks not detected
+['dwin', 'dtcpb']
+TP: 27
+TN: 25423
+FP: 870
+FN: 938 <- attacks not detected
+['dwin', 'smeansz']
+TP: 703
+TN: 9645
+FP: 194
+FN: 16716 <- attacks not detected
+['dwin', 'dmeansz']
+TP: 499
+TN: 9170
+FP: 398
+FN: 17191 <- attacks not detected
+['dwin', 'trans_depth']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dwin', 'res_bdy_len']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dwin', 'Sjit']
+TP: 897
+TN: 5553
+FP: 0
+FN: 20808 <- attacks not detected
+['dwin', 'Djit']
+TP: 367
+TN: 13120
+FP: 530
+FN: 13241 <- attacks not detected
+['dwin', 'Sintpkt']
+TP: 543
+TN: 13308
+FP: 354
+FN: 13053 <- attacks not detected
+['dwin', 'Dintpkt']
+TP: 896
+TN: 13739
+FP: 1
+FN: 12622 <- attacks not detected
+['dwin', 'tcprtt']
+TP: 896
+TN: 12266
+FP: 1
+FN: 14095 <- attacks not detected
+['dwin', 'synack']
+TP: 851
+TN: 12230
+FP: 46
+FN: 14131 <- attacks not detected
+['dwin', 'ackdat']
+TP: 365
+TN: 14201
+FP: 532
+FN: 12160 <- attacks not detected
+['dwin', 'is_sm_ips_ports']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dwin', 'ct_state_ttl']
+TP: 896
+TN: 7469
+FP: 1
+FN: 18892 <- attacks not detected
+['dwin', 'ct_flw_http_mthd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dwin', 'is_ftp_login']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dwin', 'ct_ftp_cmd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dwin', 'ct_srv_src']
+TP: 627
+TN: 11550
+FP: 270
+FN: 14811 <- attacks not detected
+['dwin', 'ct_srv_dst']
+TP: 777
+TN: 9549
+FP: 120
+FN: 16812 <- attacks not detected
+['dwin', 'ct_dst_ltm']
+TP: 307
+TN: 11057
+FP: 590
+FN: 15304 <- attacks not detected
+['dwin', 'ct_src_ ltm']
+TP: 593
+TN: 10034
+FP: 304
+FN: 16327 <- attacks not detected
+['dwin', 'ct_src_dport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dwin', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['dwin', 'ct_dst_src_ltm']
+TP: 543
+TN: 13879
+FP: 354
+FN: 12482 <- attacks not detected
+['stcpb', 'dtcpb']
+TP: 201
+TN: 21169
+FP: 696
+FN: 5192 <- attacks not detected
+['stcpb', 'smeansz']
+TP: 428
+TN: 9971
+FP: 469
+FN: 16390 <- attacks not detected
+['stcpb', 'dmeansz']
+TP: 387
+TN: 17826
+FP: 510
+FN: 8535 <- attacks not detected
+['stcpb', 'trans_depth']
+TP: 170
+TN: 21847
+FP: 727
+FN: 4514 <- attacks not detected
+['stcpb', 'res_bdy_len']
+TP: 37
+TN: 25925
+FP: 860
+FN: 436 <- attacks not detected
+['stcpb', 'Sjit']
+TP: 247
+TN: 11613
+FP: 650
+FN: 14748 <- attacks not detected
+['stcpb', 'Djit']
+TP: 584
+TN: 16108
+FP: 313
+FN: 10253 <- attacks not detected
+['stcpb', 'Sintpkt']
+TP: 43
+TN: 14055
+FP: 854
+FN: 12306 <- attacks not detected
+['stcpb', 'Dintpkt']
+TP: 260
+TN: 13133
+FP: 637
+FN: 13228 <- attacks not detected
+['stcpb', 'tcprtt']
+TP: 170
+TN: 21875
+FP: 727
+FN: 4486 <- attacks not detected
+['stcpb', 'synack']
+TP: 170
+TN: 21875
+FP: 727
+FN: 4486 <- attacks not detected
+['stcpb', 'ackdat']
+TP: 170
+TN: 21875
+FP: 727
+FN: 4486 <- attacks not detected
+['stcpb', 'is_sm_ips_ports']
+TP: 706
+TN: 14162
+FP: 191
+FN: 12199 <- attacks not detected
+['stcpb', 'ct_state_ttl']
+TP: 763
+TN: 12773
+FP: 134
+FN: 13588 <- attacks not detected
+['stcpb', 'ct_flw_http_mthd']
+TP: 170
+TN: 21866
+FP: 727
+FN: 4495 <- attacks not detected
+['stcpb', 'is_ftp_login']
+TP: 170
+TN: 21875
+FP: 727
+FN: 4486 <- attacks not detected
+['stcpb', 'ct_ftp_cmd']
+TP: 170
+TN: 21875
+FP: 727
+FN: 4486 <- attacks not detected
+['stcpb', 'ct_srv_src']
+TP: 515
+TN: 12345
+FP: 382
+FN: 14016 <- attacks not detected
+['stcpb', 'ct_srv_dst']
+TP: 468
+TN: 11080
+FP: 429
+FN: 15281 <- attacks not detected
+['stcpb', 'ct_dst_ltm']
+TP: 678
+TN: 12903
+FP: 219
+FN: 13458 <- attacks not detected
+['stcpb', 'ct_src_ ltm']
+TP: 581
+TN: 13756
+FP: 316
+FN: 12605 <- attacks not detected
+['stcpb', 'ct_src_dport_ltm']
+TP: 385
+TN: 13067
+FP: 512
+FN: 13294 <- attacks not detected
+['stcpb', 'ct_dst_sport_ltm']
+TP: 614
+TN: 13829
+FP: 283
+FN: 12532 <- attacks not detected
+['stcpb', 'ct_dst_src_ltm']
+TP: 309
+TN: 9282
+FP: 588
+FN: 17079 <- attacks not detected
+['dtcpb', 'smeansz']
+TP: 488
+TN: 12858
+FP: 409
+FN: 13503 <- attacks not detected
+['dtcpb', 'dmeansz']
+TP: 417
+TN: 14280
+FP: 480
+FN: 12081 <- attacks not detected
+['dtcpb', 'trans_depth']
+TP: 68
+TN: 24413
+FP: 829
+FN: 1948 <- attacks not detected
+['dtcpb', 'res_bdy_len']
+TP: 305
+TN: 10447
+FP: 592
+FN: 15914 <- attacks not detected
+['dtcpb', 'Sjit']
+TP: 144
+TN: 12903
+FP: 753
+FN: 13458 <- attacks not detected
+['dtcpb', 'Djit']
+TP: 781
+TN: 4713
+FP: 116
+FN: 21648 <- attacks not detected
+['dtcpb', 'Sintpkt']
+TP: 18
+TN: 15611
+FP: 879
+FN: 10750 <- attacks not detected
+['dtcpb', 'Dintpkt']
+TP: 233
+TN: 15638
+FP: 664
+FN: 10723 <- attacks not detected
+['dtcpb', 'tcprtt']
+TP: 68
+TN: 24441
+FP: 829
+FN: 1920 <- attacks not detected
+['dtcpb', 'synack']
+TP: 68
+TN: 24441
+FP: 829
+FN: 1920 <- attacks not detected
+['dtcpb', 'ackdat']
+TP: 68
+TN: 24441
+FP: 829
+FN: 1920 <- attacks not detected
+['dtcpb', 'is_sm_ips_ports']
+TP: 601
+TN: 16651
+FP: 296
+FN: 9710 <- attacks not detected
+['dtcpb', 'ct_state_ttl']
+TP: 652
+TN: 15328
+FP: 245
+FN: 11033 <- attacks not detected
+['dtcpb', 'ct_flw_http_mthd']
+TP: 68
+TN: 24432
+FP: 829
+FN: 1929 <- attacks not detected
+['dtcpb', 'is_ftp_login']
+TP: 68
+TN: 24441
+FP: 829
+FN: 1920 <- attacks not detected
+['dtcpb', 'ct_ftp_cmd']
+TP: 68
+TN: 24441
+FP: 829
+FN: 1920 <- attacks not detected
+['dtcpb', 'ct_srv_src']
+TP: 516
+TN: 12053
+FP: 381
+FN: 14308 <- attacks not detected
+['dtcpb', 'ct_srv_dst']
+TP: 635
+TN: 12542
+FP: 262
+FN: 13819 <- attacks not detected
+['dtcpb', 'ct_dst_ltm']
+TP: 673
+TN: 13375
+FP: 224
+FN: 12986 <- attacks not detected
+['dtcpb', 'ct_src_ ltm']
+TP: 638
+TN: 14962
+FP: 259
+FN: 11399 <- attacks not detected
+['dtcpb', 'ct_src_dport_ltm']
+TP: 479
+TN: 9492
+FP: 418
+FN: 16869 <- attacks not detected
+['dtcpb', 'ct_dst_sport_ltm']
+TP: 603
+TN: 15895
+FP: 294
+FN: 10466 <- attacks not detected
+['dtcpb', 'ct_dst_src_ltm']
+TP: 399
+TN: 11897
+FP: 498
+FN: 14464 <- attacks not detected
+['smeansz', 'dmeansz']
+TP: 627
+TN: 10024
+FP: 270
+FN: 16337 <- attacks not detected
+['smeansz', 'trans_depth']
+TP: 662
+TN: 8646
+FP: 235
+FN: 17715 <- attacks not detected
+['smeansz', 'res_bdy_len']
+TP: 619
+TN: 8274
+FP: 278
+FN: 18087 <- attacks not detected
+['smeansz', 'Sjit']
+TP: 733
+TN: 9054
+FP: 164
+FN: 17307 <- attacks not detected
+['smeansz', 'Djit']
+TP: 609
+TN: 9960
+FP: 288
+FN: 16401 <- attacks not detected
+['smeansz', 'Sintpkt']
+TP: 738
+TN: 13492
+FP: 159
+FN: 12869 <- attacks not detected
+['smeansz', 'Dintpkt']
+TP: 839
+TN: 13560
+FP: 58
+FN: 12801 <- attacks not detected
+['smeansz', 'tcprtt']
+TP: 852
+TN: 12669
+FP: 45
+FN: 13692 <- attacks not detected
+['smeansz', 'synack']
+TP: 862
+TN: 11835
+FP: 35
+FN: 14526 <- attacks not detected
+['smeansz', 'ackdat']
+TP: 767
+TN: 10251
+FP: 130
+FN: 16110 <- attacks not detected
+['smeansz', 'is_sm_ips_ports']
+TP: 640
+TN: 9578
+FP: 257
+FN: 16783 <- attacks not detected
+['smeansz', 'ct_state_ttl']
+TP: 897
+TN: 10483
+FP: 0
+FN: 15878 <- attacks not detected
+['smeansz', 'ct_flw_http_mthd']
+TP: 649
+TN: 8239
+FP: 248
+FN: 18122 <- attacks not detected
+['smeansz', 'is_ftp_login']
+TP: 618
+TN: 9247
+FP: 279
+FN: 17114 <- attacks not detected
+['smeansz', 'ct_ftp_cmd']
+TP: 608
+TN: 8696
+FP: 289
+FN: 17665 <- attacks not detected
+['smeansz', 'ct_srv_src']
+TP: 647
+TN: 9748
+FP: 250
+FN: 16613 <- attacks not detected
+['smeansz', 'ct_srv_dst']
+TP: 681
+TN: 9507
+FP: 216
+FN: 16854 <- attacks not detected
+['smeansz', 'ct_dst_ltm']
+TP: 632
+TN: 9040
+FP: 265
+FN: 17321 <- attacks not detected
+['smeansz', 'ct_src_ ltm']
+TP: 635
+TN: 9049
+FP: 262
+FN: 17312 <- attacks not detected
+['smeansz', 'ct_src_dport_ltm']
+TP: 754
+TN: 10586
+FP: 143
+FN: 15775 <- attacks not detected
+['smeansz', 'ct_dst_sport_ltm']
+TP: 774
+TN: 8810
+FP: 123
+FN: 17551 <- attacks not detected
+['smeansz', 'ct_dst_src_ltm']
+TP: 680
+TN: 9806
+FP: 217
+FN: 16555 <- attacks not detected
+['dmeansz', 'trans_depth']
+TP: 467
+TN: 8950
+FP: 430
+FN: 17411 <- attacks not detected
+['dmeansz', 'res_bdy_len']
+TP: 381
+TN: 7602
+FP: 516
+FN: 18759 <- attacks not detected
+['dmeansz', 'Sjit']
+TP: 539
+TN: 10207
+FP: 358
+FN: 16154 <- attacks not detected
+['dmeansz', 'Djit']
+TP: 668
+TN: 10630
+FP: 229
+FN: 15731 <- attacks not detected
+['dmeansz', 'Sintpkt']
+TP: 482
+TN: 13090
+FP: 415
+FN: 13271 <- attacks not detected
+['dmeansz', 'Dintpkt']
+TP: 594
+TN: 12903
+FP: 303
+FN: 13458 <- attacks not detected
+['dmeansz', 'tcprtt']
+TP: 654
+TN: 9698
+FP: 243
+FN: 16663 <- attacks not detected
+['dmeansz', 'synack']
+TP: 500
+TN: 9390
+FP: 397
+FN: 16971 <- attacks not detected
+['dmeansz', 'ackdat']
+TP: 572
+TN: 8113
+FP: 325
+FN: 18248 <- attacks not detected
+['dmeansz', 'is_sm_ips_ports']
+TP: 507
+TN: 8447
+FP: 390
+FN: 17914 <- attacks not detected
+['dmeansz', 'ct_state_ttl']
+TP: 676
+TN: 9014
+FP: 221
+FN: 17347 <- attacks not detected
+['dmeansz', 'ct_flw_http_mthd']
+TP: 550
+TN: 8707
+FP: 347
+FN: 17654 <- attacks not detected
+['dmeansz', 'is_ftp_login']
+TP: 458
+TN: 7281
+FP: 439
+FN: 19080 <- attacks not detected
+['dmeansz', 'ct_ftp_cmd']
+TP: 538
+TN: 8705
+FP: 359
+FN: 17656 <- attacks not detected
+['dmeansz', 'ct_srv_src']
+TP: 556
+TN: 8491
+FP: 341
+FN: 17870 <- attacks not detected
+['dmeansz', 'ct_srv_dst']
+TP: 551
+TN: 8725
+FP: 346
+FN: 17636 <- attacks not detected
+['dmeansz', 'ct_dst_ltm']
+TP: 471
+TN: 8705
+FP: 426
+FN: 17656 <- attacks not detected
+['dmeansz', 'ct_src_ ltm']
+TP: 520
+TN: 9105
+FP: 377
+FN: 17256 <- attacks not detected
+['dmeansz', 'ct_src_dport_ltm']
+TP: 650
+TN: 8835
+FP: 247
+FN: 17526 <- attacks not detected
+['dmeansz', 'ct_dst_sport_ltm']
+TP: 528
+TN: 8557
+FP: 369
+FN: 17804 <- attacks not detected
+['dmeansz', 'ct_dst_src_ltm']
+TP: 529
+TN: 9008
+FP: 368
+FN: 17353 <- attacks not detected
+['trans_depth', 'res_bdy_len']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['trans_depth', 'Sjit']
+TP: 897
+TN: 5662
+FP: 0
+FN: 20699 <- attacks not detected
+['trans_depth', 'Djit']
+TP: 368
+TN: 13036
+FP: 529
+FN: 13325 <- attacks not detected
+['trans_depth', 'Sintpkt']
+TP: 735
+TN: 12318
+FP: 162
+FN: 14043 <- attacks not detected
+['trans_depth', 'Dintpkt']
+TP: 894
+TN: 13286
+FP: 3
+FN: 13075 <- attacks not detected
+['trans_depth', 'tcprtt']
+TP: 896
+TN: 13492
+FP: 1
+FN: 12869 <- attacks not detected
+['trans_depth', 'synack']
+TP: 896
+TN: 13562
+FP: 1
+FN: 12799 <- attacks not detected
+['trans_depth', 'ackdat']
+TP: 897
+TN: 15159
+FP: 0
+FN: 11202 <- attacks not detected
+['trans_depth', 'is_sm_ips_ports']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['trans_depth', 'ct_state_ttl']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['trans_depth', 'ct_flw_http_mthd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['trans_depth', 'is_ftp_login']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['trans_depth', 'ct_ftp_cmd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['trans_depth', 'ct_srv_src']
+TP: 633
+TN: 8619
+FP: 264
+FN: 17742 <- attacks not detected
+['trans_depth', 'ct_srv_dst']
+TP: 651
+TN: 9090
+FP: 246
+FN: 17271 <- attacks not detected
+['trans_depth', 'ct_dst_ltm']
+TP: 276
+TN: 14465
+FP: 621
+FN: 11896 <- attacks not detected
+['trans_depth', 'ct_src_ ltm']
+TP: 598
+TN: 9986
+FP: 299
+FN: 16375 <- attacks not detected
+['trans_depth', 'ct_src_dport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['trans_depth', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['trans_depth', 'ct_dst_src_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['res_bdy_len', 'Sjit']
+TP: 897
+TN: 5439
+FP: 0
+FN: 20922 <- attacks not detected
+['res_bdy_len', 'Djit']
+TP: 368
+TN: 12713
+FP: 529
+FN: 13648 <- attacks not detected
+['res_bdy_len', 'Sintpkt']
+TP: 735
+TN: 12317
+FP: 162
+FN: 14044 <- attacks not detected
+['res_bdy_len', 'Dintpkt']
+TP: 894
+TN: 13266
+FP: 3
+FN: 13095 <- attacks not detected
+['res_bdy_len', 'tcprtt']
+TP: 896
+TN: 13088
+FP: 1
+FN: 13273 <- attacks not detected
+['res_bdy_len', 'synack']
+TP: 892
+TN: 13611
+FP: 5
+FN: 12750 <- attacks not detected
+['res_bdy_len', 'ackdat']
+TP: 897
+TN: 15472
+FP: 0
+FN: 10889 <- attacks not detected
+['res_bdy_len', 'is_sm_ips_ports']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['res_bdy_len', 'ct_state_ttl']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['res_bdy_len', 'ct_flw_http_mthd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['res_bdy_len', 'is_ftp_login']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['res_bdy_len', 'ct_ftp_cmd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['res_bdy_len', 'ct_srv_src']
+TP: 678
+TN: 8830
+FP: 219
+FN: 17531 <- attacks not detected
+['res_bdy_len', 'ct_srv_dst']
+TP: 675
+TN: 8260
+FP: 222
+FN: 18101 <- attacks not detected
+['res_bdy_len', 'ct_dst_ltm']
+TP: 544
+TN: 12799
+FP: 353
+FN: 13562 <- attacks not detected
+['res_bdy_len', 'ct_src_ ltm']
+TP: 382
+TN: 10544
+FP: 515
+FN: 15817 <- attacks not detected
+['res_bdy_len', 'ct_src_dport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['res_bdy_len', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['res_bdy_len', 'ct_dst_src_ltm']
+TP: 416
+TN: 17456
+FP: 481
+FN: 8905 <- attacks not detected
+['Sjit', 'Djit']
+TP: 897
+TN: 7756
+FP: 0
+FN: 18605 <- attacks not detected
+['Sjit', 'Sintpkt']
+TP: 386
+TN: 13197
+FP: 511
+FN: 13164 <- attacks not detected
+['Sjit', 'Dintpkt']
+TP: 384
+TN: 13206
+FP: 513
+FN: 13155 <- attacks not detected
+['Sjit', 'tcprtt']
+TP: 897
+TN: 5601
+FP: 0
+FN: 20760 <- attacks not detected
+['Sjit', 'synack']
+TP: 384
+TN: 12433
+FP: 513
+FN: 13928 <- attacks not detected
+['Sjit', 'ackdat']
+TP: 384
+TN: 12545
+FP: 513
+FN: 13816 <- attacks not detected
+['Sjit', 'is_sm_ips_ports']
+TP: 384
+TN: 12222
+FP: 513
+FN: 14139 <- attacks not detected
+['Sjit', 'ct_state_ttl']
+TP: 385
+TN: 12457
+FP: 512
+FN: 13904 <- attacks not detected
+['Sjit', 'ct_flw_http_mthd']
+TP: 897
+TN: 5636
+FP: 0
+FN: 20725 <- attacks not detected
+['Sjit', 'is_ftp_login']
+TP: 384
+TN: 12495
+FP: 513
+FN: 13866 <- attacks not detected
+['Sjit', 'ct_ftp_cmd']
+TP: 384
+TN: 12486
+FP: 513
+FN: 13875 <- attacks not detected
+['Sjit', 'ct_srv_src']
+TP: 705
+TN: 7750
+FP: 192
+FN: 18611 <- attacks not detected
+['Sjit', 'ct_srv_dst']
+TP: 719
+TN: 8537
+FP: 178
+FN: 17824 <- attacks not detected
+['Sjit', 'ct_dst_ltm']
+TP: 567
+TN: 9249
+FP: 330
+FN: 17112 <- attacks not detected
+['Sjit', 'ct_src_ ltm']
+TP: 573
+TN: 9038
+FP: 324
+FN: 17323 <- attacks not detected
+['Sjit', 'ct_src_dport_ltm']
+TP: 409
+TN: 12460
+FP: 488
+FN: 13901 <- attacks not detected
+['Sjit', 'ct_dst_sport_ltm']
+TP: 691
+TN: 11689
+FP: 206
+FN: 14672 <- attacks not detected
+['Sjit', 'ct_dst_src_ltm']
+TP: 397
+TN: 12598
+FP: 500
+FN: 13763 <- attacks not detected
+['Djit', 'Sintpkt']
+TP: 386
+TN: 13201
+FP: 511
+FN: 13160 <- attacks not detected
+['Djit', 'Dintpkt']
+TP: 894
+TN: 12744
+FP: 3
+FN: 13617 <- attacks not detected
+['Djit', 'tcprtt']
+TP: 369
+TN: 13072
+FP: 528
+FN: 13289 <- attacks not detected
+['Djit', 'synack']
+TP: 369
+TN: 12944
+FP: 528
+FN: 13417 <- attacks not detected
+['Djit', 'ackdat']
+TP: 897
+TN: 7706
+FP: 0
+FN: 18655 <- attacks not detected
+['Djit', 'is_sm_ips_ports']
+TP: 368
+TN: 12994
+FP: 529
+FN: 13367 <- attacks not detected
+['Djit', 'ct_state_ttl']
+TP: 372
+TN: 13180
+FP: 525
+FN: 13181 <- attacks not detected
+['Djit', 'ct_flw_http_mthd']
+TP: 368
+TN: 12959
+FP: 529
+FN: 13402 <- attacks not detected
+['Djit', 'is_ftp_login']
+TP: 368
+TN: 13059
+FP: 529
+FN: 13302 <- attacks not detected
+['Djit', 'ct_ftp_cmd']
+TP: 897
+TN: 7404
+FP: 0
+FN: 18957 <- attacks not detected
+['Djit', 'ct_srv_src']
+TP: 545
+TN: 9530
+FP: 352
+FN: 16831 <- attacks not detected
+['Djit', 'ct_srv_dst']
+TP: 603
+TN: 10239
+FP: 294
+FN: 16122 <- attacks not detected
+['Djit', 'ct_dst_ltm']
+TP: 489
+TN: 11123
+FP: 408
+FN: 15238 <- attacks not detected
+['Djit', 'ct_src_ ltm']
+TP: 689
+TN: 9225
+FP: 208
+FN: 17136 <- attacks not detected
+['Djit', 'ct_src_dport_ltm']
+TP: 695
+TN: 11308
+FP: 202
+FN: 15053 <- attacks not detected
+['Djit', 'ct_dst_sport_ltm']
+TP: 685
+TN: 12274
+FP: 212
+FN: 14087 <- attacks not detected
+['Djit', 'ct_dst_src_ltm']
+TP: 633
+TN: 11687
+FP: 264
+FN: 14674 <- attacks not detected
+['Sintpkt', 'Dintpkt']
+TP: 882
+TN: 13606
+FP: 15
+FN: 12755 <- attacks not detected
+['Sintpkt', 'tcprtt']
+TP: 735
+TN: 12412
+FP: 162
+FN: 13949 <- attacks not detected
+['Sintpkt', 'synack']
+TP: 735
+TN: 12412
+FP: 162
+FN: 13949 <- attacks not detected
+['Sintpkt', 'ackdat']
+TP: 735
+TN: 12412
+FP: 162
+FN: 13949 <- attacks not detected
+['Sintpkt', 'is_sm_ips_ports']
+TP: 735
+TN: 12413
+FP: 162
+FN: 13948 <- attacks not detected
+['Sintpkt', 'ct_state_ttl']
+TP: 897
+TN: 12639
+FP: 0
+FN: 13722 <- attacks not detected
+['Sintpkt', 'ct_flw_http_mthd']
+TP: 735
+TN: 12318
+FP: 162
+FN: 14043 <- attacks not detected
+['Sintpkt', 'is_ftp_login']
+TP: 735
+TN: 12350
+FP: 162
+FN: 14011 <- attacks not detected
+['Sintpkt', 'ct_ftp_cmd']
+TP: 735
+TN: 12350
+FP: 162
+FN: 14011 <- attacks not detected
+['Sintpkt', 'ct_srv_src']
+TP: 816
+TN: 13527
+FP: 81
+FN: 12834 <- attacks not detected
+['Sintpkt', 'ct_srv_dst']
+TP: 818
+TN: 13276
+FP: 79
+FN: 13085 <- attacks not detected
+['Sintpkt', 'ct_dst_ltm']
+TP: 624
+TN: 13200
+FP: 273
+FN: 13161 <- attacks not detected
+['Sintpkt', 'ct_src_ ltm']
+TP: 647
+TN: 13094
+FP: 250
+FN: 13267 <- attacks not detected
+['Sintpkt', 'ct_src_dport_ltm']
+TP: 795
+TN: 13465
+FP: 102
+FN: 12896 <- attacks not detected
+['Sintpkt', 'ct_dst_sport_ltm']
+TP: 816
+TN: 13522
+FP: 81
+FN: 12839 <- attacks not detected
+['Sintpkt', 'ct_dst_src_ltm']
+TP: 791
+TN: 13316
+FP: 106
+FN: 13045 <- attacks not detected
+['Dintpkt', 'tcprtt']
+TP: 896
+TN: 13384
+FP: 1
+FN: 12977 <- attacks not detected
+['Dintpkt', 'synack']
+TP: 895
+TN: 13385
+FP: 2
+FN: 12976 <- attacks not detected
+['Dintpkt', 'ackdat']
+TP: 896
+TN: 13384
+FP: 1
+FN: 12977 <- attacks not detected
+['Dintpkt', 'is_sm_ips_ports']
+TP: 894
+TN: 13414
+FP: 3
+FN: 12947 <- attacks not detected
+['Dintpkt', 'ct_state_ttl']
+TP: 897
+TN: 13379
+FP: 0
+FN: 12982 <- attacks not detected
+['Dintpkt', 'ct_flw_http_mthd']
+TP: 894
+TN: 13281
+FP: 3
+FN: 13080 <- attacks not detected
+['Dintpkt', 'is_ftp_login']
+TP: 894
+TN: 13334
+FP: 3
+FN: 13027 <- attacks not detected
+['Dintpkt', 'ct_ftp_cmd']
+TP: 894
+TN: 13334
+FP: 3
+FN: 13027 <- attacks not detected
+['Dintpkt', 'ct_srv_src']
+TP: 876
+TN: 13683
+FP: 21
+FN: 12678 <- attacks not detected
+['Dintpkt', 'ct_srv_dst']
+TP: 875
+TN: 13531
+FP: 22
+FN: 12830 <- attacks not detected
+['Dintpkt', 'ct_dst_ltm']
+TP: 672
+TN: 13181
+FP: 225
+FN: 13180 <- attacks not detected
+['Dintpkt', 'ct_src_ ltm']
+TP: 839
+TN: 13518
+FP: 58
+FN: 12843 <- attacks not detected
+['Dintpkt', 'ct_src_dport_ltm']
+TP: 894
+TN: 13292
+FP: 3
+FN: 13069 <- attacks not detected
+['Dintpkt', 'ct_dst_sport_ltm']
+TP: 894
+TN: 13477
+FP: 3
+FN: 12884 <- attacks not detected
+['Dintpkt', 'ct_dst_src_ltm']
+TP: 821
+TN: 13386
+FP: 76
+FN: 12975 <- attacks not detected
+['tcprtt', 'synack']
+TP: 897
+TN: 13709
+FP: 0
+FN: 12652 <- attacks not detected
+['tcprtt', 'ackdat']
+TP: 896
+TN: 13815
+FP: 1
+FN: 12546 <- attacks not detected
+['tcprtt', 'is_sm_ips_ports']
+TP: 896
+TN: 13869
+FP: 1
+FN: 12492 <- attacks not detected
+['tcprtt', 'ct_state_ttl']
+TP: 897
+TN: 13824
+FP: 0
+FN: 12537 <- attacks not detected
+['tcprtt', 'ct_flw_http_mthd']
+TP: 896
+TN: 13492
+FP: 1
+FN: 12869 <- attacks not detected
+['tcprtt', 'is_ftp_login']
+TP: 896
+TN: 13698
+FP: 1
+FN: 12663 <- attacks not detected
+['tcprtt', 'ct_ftp_cmd']
+TP: 896
+TN: 13697
+FP: 1
+FN: 12664 <- attacks not detected
+['tcprtt', 'ct_srv_src']
+TP: 851
+TN: 13460
+FP: 46
+FN: 12901 <- attacks not detected
+['tcprtt', 'ct_srv_dst']
+TP: 869
+TN: 12548
+FP: 28
+FN: 13813 <- attacks not detected
+['tcprtt', 'ct_dst_ltm']
+TP: 820
+TN: 13244
+FP: 77
+FN: 13117 <- attacks not detected
+['tcprtt', 'ct_src_ ltm']
+TP: 734
+TN: 14182
+FP: 163
+FN: 12179 <- attacks not detected
+['tcprtt', 'ct_src_dport_ltm']
+TP: 896
+TN: 13623
+FP: 1
+FN: 12738 <- attacks not detected
+['tcprtt', 'ct_dst_sport_ltm']
+TP: 896
+TN: 13498
+FP: 1
+FN: 12863 <- attacks not detected
+['tcprtt', 'ct_dst_src_ltm']
+TP: 896
+TN: 12483
+FP: 1
+FN: 13878 <- attacks not detected
+['synack', 'ackdat']
+TP: 897
+TN: 13318
+FP: 0
+FN: 13043 <- attacks not detected
+['synack', 'is_sm_ips_ports']
+TP: 897
+TN: 13285
+FP: 0
+FN: 13076 <- attacks not detected
+['synack', 'ct_state_ttl']
+TP: 897
+TN: 13114
+FP: 0
+FN: 13247 <- attacks not detected
+['synack', 'ct_flw_http_mthd']
+TP: 895
+TN: 13563
+FP: 2
+FN: 12798 <- attacks not detected
+['synack', 'is_ftp_login']
+TP: 897
+TN: 13413
+FP: 0
+FN: 12948 <- attacks not detected
+['synack', 'ct_ftp_cmd']
+TP: 897
+TN: 13412
+FP: 0
+FN: 12949 <- attacks not detected
+['synack', 'ct_srv_src']
+TP: 808
+TN: 13340
+FP: 89
+FN: 13021 <- attacks not detected
+['synack', 'ct_srv_dst']
+TP: 823
+TN: 11184
+FP: 74
+FN: 15177 <- attacks not detected
+['synack', 'ct_dst_ltm']
+TP: 619
+TN: 15005
+FP: 278
+FN: 11356 <- attacks not detected
+['synack', 'ct_src_ ltm']
+TP: 685
+TN: 13637
+FP: 212
+FN: 12724 <- attacks not detected
+['synack', 'ct_src_dport_ltm']
+TP: 877
+TN: 13885
+FP: 20
+FN: 12476 <- attacks not detected
+['synack', 'ct_dst_sport_ltm']
+TP: 881
+TN: 13521
+FP: 16
+FN: 12840 <- attacks not detected
+['synack', 'ct_dst_src_ltm']
+TP: 853
+TN: 12437
+FP: 44
+FN: 13924 <- attacks not detected
+['ackdat', 'is_sm_ips_ports']
+TP: 897
+TN: 11890
+FP: 0
+FN: 14471 <- attacks not detected
+['ackdat', 'ct_state_ttl']
+TP: 897
+TN: 11128
+FP: 0
+FN: 15233 <- attacks not detected
+['ackdat', 'ct_flw_http_mthd']
+TP: 897
+TN: 15159
+FP: 0
+FN: 11202 <- attacks not detected
+['ackdat', 'is_ftp_login']
+TP: 897
+TN: 15139
+FP: 0
+FN: 11222 <- attacks not detected
+['ackdat', 'ct_ftp_cmd']
+TP: 897
+TN: 15138
+FP: 0
+FN: 11223 <- attacks not detected
+['ackdat', 'ct_srv_src']
+TP: 831
+TN: 12790
+FP: 66
+FN: 13571 <- attacks not detected
+['ackdat', 'ct_srv_dst']
+TP: 821
+TN: 9906
+FP: 76
+FN: 16455 <- attacks not detected
+['ackdat', 'ct_dst_ltm']
+TP: 661
+TN: 12029
+FP: 236
+FN: 14332 <- attacks not detected
+['ackdat', 'ct_src_ ltm']
+TP: 688
+TN: 13476
+FP: 209
+FN: 12885 <- attacks not detected
+['ackdat', 'ct_src_dport_ltm']
+TP: 896
+TN: 14355
+FP: 1
+FN: 12006 <- attacks not detected
+['ackdat', 'ct_dst_sport_ltm']
+TP: 897
+TN: 15297
+FP: 0
+FN: 11064 <- attacks not detected
+['ackdat', 'ct_dst_src_ltm']
+TP: 821
+TN: 11019
+FP: 76
+FN: 15342 <- attacks not detected
+['is_sm_ips_ports', 'ct_state_ttl']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['is_sm_ips_ports', 'ct_flw_http_mthd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['is_sm_ips_ports', 'is_ftp_login']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['is_sm_ips_ports', 'ct_ftp_cmd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['is_sm_ips_ports', 'ct_srv_src']
+TP: 743
+TN: 6557
+FP: 154
+FN: 19804 <- attacks not detected
+['is_sm_ips_ports', 'ct_srv_dst']
+TP: 465
+TN: 12635
+FP: 432
+FN: 13726 <- attacks not detected
+['is_sm_ips_ports', 'ct_dst_ltm']
+TP: 426
+TN: 9317
+FP: 471
+FN: 17044 <- attacks not detected
+['is_sm_ips_ports', 'ct_src_ ltm']
+TP: 526
+TN: 13638
+FP: 371
+FN: 12723 <- attacks not detected
+['is_sm_ips_ports', 'ct_src_dport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['is_sm_ips_ports', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['is_sm_ips_ports', 'ct_dst_src_ltm']
+TP: 521
+TN: 14468
+FP: 376
+FN: 11893 <- attacks not detected
+['ct_state_ttl', 'ct_flw_http_mthd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_state_ttl', 'is_ftp_login']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_state_ttl', 'ct_ftp_cmd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_state_ttl', 'ct_srv_src']
+TP: 897
+TN: 8104
+FP: 0
+FN: 18257 <- attacks not detected
+['ct_state_ttl', 'ct_srv_dst']
+TP: 896
+TN: 9273
+FP: 1
+FN: 17088 <- attacks not detected
+['ct_state_ttl', 'ct_dst_ltm']
+TP: 896
+TN: 15612
+FP: 1
+FN: 10749 <- attacks not detected
+['ct_state_ttl', 'ct_src_ ltm']
+TP: 897
+TN: 5772
+FP: 0
+FN: 20589 <- attacks not detected
+['ct_state_ttl', 'ct_src_dport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_state_ttl', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_state_ttl', 'ct_dst_src_ltm']
+TP: 896
+TN: 14364
+FP: 1
+FN: 11997 <- attacks not detected
+['ct_flw_http_mthd', 'is_ftp_login']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_flw_http_mthd', 'ct_ftp_cmd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_flw_http_mthd', 'ct_srv_src']
+TP: 594
+TN: 11192
+FP: 303
+FN: 15169 <- attacks not detected
+['ct_flw_http_mthd', 'ct_srv_dst']
+TP: 650
+TN: 11782
+FP: 247
+FN: 14579 <- attacks not detected
+['ct_flw_http_mthd', 'ct_dst_ltm']
+TP: 466
+TN: 8488
+FP: 431
+FN: 17873 <- attacks not detected
+['ct_flw_http_mthd', 'ct_src_ ltm']
+TP: 598
+TN: 9986
+FP: 299
+FN: 16375 <- attacks not detected
+['ct_flw_http_mthd', 'ct_src_dport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_flw_http_mthd', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_flw_http_mthd', 'ct_dst_src_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['is_ftp_login', 'ct_ftp_cmd']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['is_ftp_login', 'ct_srv_src']
+TP: 642
+TN: 8767
+FP: 255
+FN: 17594 <- attacks not detected
+['is_ftp_login', 'ct_srv_dst']
+TP: 442
+TN: 11835
+FP: 455
+FN: 14526 <- attacks not detected
+['is_ftp_login', 'ct_dst_ltm']
+TP: 269
+TN: 13112
+FP: 628
+FN: 13249 <- attacks not detected
+['is_ftp_login', 'ct_src_ ltm']
+TP: 747
+TN: 5691
+FP: 150
+FN: 20670 <- attacks not detected
+['is_ftp_login', 'ct_src_dport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['is_ftp_login', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['is_ftp_login', 'ct_dst_src_ltm']
+TP: 521
+TN: 14396
+FP: 376
+FN: 11965 <- attacks not detected
+['ct_ftp_cmd', 'ct_srv_src']
+TP: 650
+TN: 9800
+FP: 247
+FN: 16561 <- attacks not detected
+['ct_ftp_cmd', 'ct_srv_dst']
+TP: 720
+TN: 9273
+FP: 177
+FN: 17088 <- attacks not detected
+['ct_ftp_cmd', 'ct_dst_ltm']
+TP: 574
+TN: 11922
+FP: 323
+FN: 14439 <- attacks not detected
+['ct_ftp_cmd', 'ct_src_ ltm']
+TP: 592
+TN: 10659
+FP: 305
+FN: 15702 <- attacks not detected
+['ct_ftp_cmd', 'ct_src_dport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_ftp_cmd', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_ftp_cmd', 'ct_dst_src_ltm']
+TP: 521
+TN: 14396
+FP: 376
+FN: 11965 <- attacks not detected
+['ct_srv_src', 'ct_srv_dst']
+TP: 688
+TN: 8913
+FP: 209
+FN: 17448 <- attacks not detected
+['ct_srv_src', 'ct_dst_ltm']
+TP: 706
+TN: 9547
+FP: 191
+FN: 16814 <- attacks not detected
+['ct_srv_src', 'ct_src_ ltm']
+TP: 498
+TN: 9948
+FP: 399
+FN: 16413 <- attacks not detected
+['ct_srv_src', 'ct_src_dport_ltm']
+TP: 576
+TN: 13051
+FP: 321
+FN: 13310 <- attacks not detected
+['ct_srv_src', 'ct_dst_sport_ltm']
+TP: 558
+TN: 12628
+FP: 339
+FN: 13733 <- attacks not detected
+['ct_srv_src', 'ct_dst_src_ltm']
+TP: 573
+TN: 10811
+FP: 324
+FN: 15550 <- attacks not detected
+['ct_srv_dst', 'ct_dst_ltm']
+TP: 427
+TN: 12078
+FP: 470
+FN: 14283 <- attacks not detected
+['ct_srv_dst', 'ct_src_ ltm']
+TP: 502
+TN: 9637
+FP: 395
+FN: 16724 <- attacks not detected
+['ct_srv_dst', 'ct_src_dport_ltm']
+TP: 526
+TN: 13774
+FP: 371
+FN: 12587 <- attacks not detected
+['ct_srv_dst', 'ct_dst_sport_ltm']
+TP: 758
+TN: 10957
+FP: 139
+FN: 15404 <- attacks not detected
+['ct_srv_dst', 'ct_dst_src_ltm']
+TP: 534
+TN: 10896
+FP: 363
+FN: 15465 <- attacks not detected
+['ct_dst_ltm', 'ct_src_ ltm']
+TP: 606
+TN: 10298
+FP: 291
+FN: 16063 <- attacks not detected
+['ct_dst_ltm', 'ct_src_dport_ltm']
+TP: 434
+TN: 12069
+FP: 463
+FN: 14292 <- attacks not detected
+['ct_dst_ltm', 'ct_dst_sport_ltm']
+TP: 477
+TN: 14936
+FP: 420
+FN: 11425 <- attacks not detected
+['ct_dst_ltm', 'ct_dst_src_ltm']
+TP: 523
+TN: 13767
+FP: 374
+FN: 12594 <- attacks not detected
+['ct_src_ ltm', 'ct_src_dport_ltm']
+TP: 520
+TN: 14865
+FP: 377
+FN: 11496 <- attacks not detected
+['ct_src_ ltm', 'ct_dst_sport_ltm']
+TP: 503
+TN: 11084
+FP: 394
+FN: 15277 <- attacks not detected
+['ct_src_ ltm', 'ct_dst_src_ltm']
+TP: 692
+TN: 8589
+FP: 205
+FN: 17772 <- attacks not detected
+['ct_src_dport_ltm', 'ct_dst_sport_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
+['ct_src_dport_ltm', 'ct_dst_src_ltm']
+TP: 871
+TN: 3229
+FP: 26
+FN: 23132 <- attacks not detected
+['ct_dst_sport_ltm', 'ct_dst_src_ltm']
+TP: 897
+TN: 0
+FP: 0
+FN: 26361 <- attacks not detected
