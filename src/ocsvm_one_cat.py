@@ -16,19 +16,19 @@ cats = ["srcip","dstip","proto","state","dur","sbytes","dbytes","sttl","dttl","s
 
 data_path = os.path.abspath(os.path.join(__file__, '..', '..', 'dataset'))
 
-# df = pd.read_csv(os.path.join(data_path, "UNSW-NB15_1_anonymized_no_col_names.csv"), names=cats)
+df = pd.read_csv(os.path.join(data_path, "UNSW-NB15_1_anonymized_no_col_names.csv"), names=cats)
 
-names = pd.read_csv(os.path.join(data_path, 'NUSW-NB15_features_v2.csv'))['Name'].tolist()
+# names = pd.read_csv(os.path.join(data_path, 'NUSW-NB15_features_v2.csv'))['Name'].tolist()
 
-frames = []
+# frames = []
 
-frames.append(pd.read_csv(os.path.join(data_path, "UNSW-NB15_1.csv"), names=names))
-# Uncomment to load all csv
-frames.append(pd.read_csv(os.path.join(data_path, "UNSW-NB15_2.csv"), names=names))
-frames.append(pd.read_csv(os.path.join(data_path, "UNSW-NB15_3.csv"), names=names))
-frames.append(pd.read_csv(os.path.join(data_path, "UNSW-NB15_4.csv"), names=names))
+# frames.append(pd.read_csv(os.path.join(data_path, "UNSW-NB15_1.csv"), names=names))
+# # Uncomment to load all csv
+# frames.append(pd.read_csv(os.path.join(data_path, "UNSW-NB15_2.csv"), names=names))
+# frames.append(pd.read_csv(os.path.join(data_path, "UNSW-NB15_3.csv"), names=names))
+# frames.append(pd.read_csv(os.path.join(data_path, "UNSW-NB15_4.csv"), names=names))
 
-df = pd.concat(frames, axis=0, ignore_index=True)
+# df = pd.concat(frames, axis=0, ignore_index=True)
 
 mask = np.random.rand(len(df)) < train_test_ratio
 train = df[mask]
@@ -92,7 +92,7 @@ for cat_pair in pairs:
 
     y_train_output = label_train
 
-    tn, fp, fn, tp = confusion_matrix(new_output, y_train_output).ravel()
+    tn, fp, fn, tp = confusion_matrix(y_train_output, new_output).ravel()
     print(f"TP: {tp}")
     print(f"TN: {tn}")
     print(f"FP: {fp}")
@@ -103,7 +103,7 @@ for cat_pair in pairs:
     fp_arr.append(fp)
     fn_arr.append(fn)
 
-    with open(f"{os.path.abspath(os.path.join(__file__, '..', 'results', 'ocsvm_normal_data.txt'))}", "a") as results_file:
+    with open(f"{os.path.abspath(os.path.join(__file__, '..', 'results', 'ocsvm_anonymize_data.txt'))}", "a") as results_file:
         results_file.write(f"\n{[cat_pair[0], cat_pair[1]]}")
         results_file.write(f"\nTP: {tp}")
         results_file.write(f"\nTN: {tn}")
